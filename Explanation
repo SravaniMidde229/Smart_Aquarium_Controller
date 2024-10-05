@@ -1,0 +1,20 @@
+Smart Aquarium Controller
+The Smart Aquarium Controller is an Internet of Things (IoT) project designed to automate the monitoring and maintenance of aquarium conditions, ensuring a healthy environment for aquatic life. The system is built using the ESP8266 NodeMCU, and it integrates various sensors and actuators to control temperature, water quality, and feeding, all managed remotely via the Blynk app.
+
+Key Features:
+Temperature Control:
+The system uses a DHT sensor to continuously monitor the aquarium's temperature.
+If the temperature rises above a preset threshold, a fan is automatically activated to cool the water.
+If the temperature drops too low, a heater is triggered to warm the water, maintaining a stable environment for the fish.
+
+Water Quality Monitoring:
+A TDS (Total Dissolved Solids) sensor is used to measure the water quality by detecting the concentration of dissolved solids in the aquarium.
+The measured TDS values are displayed on the Blynk app in real-time, allowing the user to ensure the water remains within safe levels for the fish.
+
+Automated Fish Feeding:
+A servo motor is connected to dispense fish food into the aquarium.
+The feeding mechanism can be remotely triggered via the Blynk app, allowing users to feed their fish from anywhere, making it convenient for those who are away from home.
+
+Remote Monitoring and Control:
+The system is integrated with the Blynk app, which provides a user-friendly interface for monitoring real-time data such as temperature and TDS levels. Through the app, users can also remotely control the fan, heater, and fish feeding motor, giving them complete control over the aquarium environment.
+
